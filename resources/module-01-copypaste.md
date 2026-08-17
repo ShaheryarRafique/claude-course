@@ -126,8 +126,11 @@ With a file attached (practise the upload):
 
 **Create the Project:** New Project, name it "Final Exam Prep", short description.
 
-**Project instructions (paste into the Instructions box):**
-> You are my exam tutor for my final year. Always explain in simple language with short examples. When I ask about a topic, base your answer on the files in this project first. If something will likely be on the exam, say so. Keep answers concise and give me one practice question at the end.
+**Project instructions (paste into the Instructions box, matches the slide):**
+> You are my exam tutor. Explain simply, always use my uploaded notes first, and end each answer with one practice question.
+
+Fuller version if you want more control:
+> You are my exam tutor for my final year. Explain in simple language with short examples, base every answer on the files in this project first, flag anything likely to be on the exam, keep it concise, and end with one practice question.
 
 **Knowledge base:** upload the syllabus and any past papers. Name files clearly, for example "Syllabus-2026.pdf" and "Past-Paper-2024.pdf".
 

@@ -130,6 +130,18 @@ Note: This is a brainstorm and reflection assignment, the student's own list. In
 
 ---
 
+<div class="lesson-no">Lesson 1.1 · Recap</div>
+
+# Quick recap
+
+- Claude is an assistant, not a search box
+- It helps in any field, with words, data, or decisions
+- You spotted your own first tasks to bring to it
+
+Note: A ten second reminder of Lesson 1.1, then move on.
+
+---
+
 <!-- .slide: data-background-color="#17181a" class="dark" -->
 
 <div class="lesson-no">Lesson 1.2 · 20 min</div>
@@ -245,6 +257,18 @@ Note: They practice the full flow, prompt then file then follow up. Exact prompt
 
 ---
 
+<div class="lesson-no">Lesson 1.2 · Recap</div>
+
+# Quick recap
+
+- Every message is a prompt, typed or spoken
+- A good prompt sets the stage, the task, and the rules
+- Attach files, and refine with follow ups
+
+Note: A ten second reminder of Lesson 1.2, then move on.
+
+---
+
 <!-- .slide: data-background-color="#17181a" class="dark" -->
 
 <div class="lesson-no">Lesson 1.3 · 15 min</div>
@@ -334,6 +358,18 @@ Note: The one genuinely new idea here, not more prompting: a chat carries all it
 Or take any weak answer from this week, and sharpen it.
 
 Note: Solve one together on screen: run a vague email prompt, apply one fix, show the far better result. Prompts in the copy-paste doc. Reflection to pose aloud: which fix will you reach for most in your work? Then, in one line, tell them there is a whole skill to working with AI well, delegating, describing, judging, and verifying, and that is the 4D framework, all of Module 2. Mention it, then stop.
+
+---
+
+<div class="lesson-no">Lesson 1.3 · Recap</div>
+
+# Quick recap
+
+- Most weak answers have a simple fix
+- The move is always a sharper prompt, weak to strong
+- Keep one chat going, or start fresh for a new topic
+
+Note: A ten second reminder of Lesson 1.3, then move on.
 
 ---
 
@@ -450,6 +486,18 @@ Note: Get them to turn a tool on and see the difference. In the script, run web 
 
 ---
 
+<div class="lesson-no">Lesson 1.4 · Recap</div>
+
+# Quick recap
+
+- Pick the model, and set the effort for the task
+- Web search for facts, research for a deep report
+- Connectors, skills, and plugins extend Claude
+
+Note: A ten second reminder of Lesson 1.4, then move on.
+
+---
+
 <!-- .slide: data-background-color="#17181a" class="dark" -->
 
 <div class="lesson-no">Lesson 1.5 · 18 min</div>
@@ -473,9 +521,10 @@ Note: Lesson title card with its objectives. Mirrors Claude 101 "introduction to
 - **What** one place for your instructions and files, for one thing you do again and again
 - **Why** Claude keeps your context, so you never re-explain yourself
 - **When** a course, a client, a job hunt, a research topic
-- The rule people miss: chats in a Project do not share context, only the knowledge base does
 
-Note: Faithful to Claude 101: Projects are self-contained workspaces with their own chats, knowledge base, and instructions. Foreground the "context is not shared unless it is in the knowledge base" rule, it is the most missed idea.
+<p class="rule"><b>The catch</b> Chats in a Project do not share context. Only the knowledge base does.</p>
+
+Note: Faithful to Claude 101: Projects are self-contained workspaces with their own chats, knowledge base, and instructions. The context rule is the most missed idea, so it is the highlighted takeaway.
 
 ---
 
@@ -488,9 +537,25 @@ Note: Faithful to Claude 101: Projects are self-contained workspaces with their 
 - Name your files clearly, Claude uses the names to find the right one
 - As your files grow, Claude searches them for you automatically
 
+Note: Claude 101's setup. Two parts: instructions shape behaviour, the knowledge base holds the files. Descriptive file names matter. The live build is on the next slide.
+
+---
+
+<div class="lesson-no">Lesson 1.5 · See it in action</div>
+
+# A Project in action
+
+An exam prep Project: your syllabus and past papers inside, and one instruction that shapes every chat.
+
+<div class="promptcard"><span class="lbl">Project instruction</span>
+
+You are my exam tutor. Explain simply, always use my uploaded notes first, and end each answer with one practice question.
+
+</div>
+
 <span class="demo">Demo</span>
 
-Note: Claude 101's setup steps. Build it live: create the Project, paste a tutor instruction, upload the syllabus, then show the before and after. Descriptive file names matter. Full script in the copy-paste doc.
+Note: Show a real Project. Build "Final Exam Prep" live: paste this instruction, upload the syllabus, then ask a question and watch Claude use the files and follow the instruction. Full script in the copy-paste doc.
 
 ---
 
@@ -508,6 +573,18 @@ Note: Claude 101's setup steps. Build it live: create the Project, paste a tutor
 </div>
 
 Note: They build their own Project now. The grid gives ideas for students and professionals. Prompts and instructions text in the copy-paste doc.
+
+---
+
+<div class="lesson-no">Lesson 1.5 · Recap</div>
+
+# Quick recap
+
+- A Project is a reusable workspace
+- Instructions and a knowledge base give it context
+- Context is shared only through the knowledge base
+
+Note: A ten second reminder of Lesson 1.5, then move on.
 
 ---
 
@@ -572,6 +649,18 @@ Note: They build and publish their own Artifact. All no code, all in minutes. Ex
 
 ---
 
+<div class="lesson-no">Lesson 1.6 · Recap</div>
+
+# Quick recap
+
+- An Artifact is a real, usable tool, no code
+- Describe it, then refine one change at a time
+- Publish to share it with a link
+
+Note: A ten second reminder of Lesson 1.6, then move on.
+
+---
+
 <!-- .slide: data-background-color="#17181a" class="dark" -->
 
 <div class="lesson-no">Lesson 1.7 · 12 min</div>
@@ -614,6 +703,18 @@ Note: Faithful to Claude 101: Memory auto-saves context so you stop repeating yo
 Reflect: what voice do you want Claude to use for your work?
 
 Note: Styles is Memory's twin: Memory is what Claude knows about you, Styles is how it writes. Set it once, it applies everywhere.
+
+---
+
+<div class="lesson-no">Lesson 1.7 · Recap</div>
+
+# Quick recap
+
+- Memory saves your context across chats
+- Three layers: shared chats, each Project, and incognito
+- Styles set the voice Claude writes in
+
+Note: A ten second reminder of Lesson 1.7, then move on.
 
 ---
 
@@ -672,6 +773,18 @@ Note: A one glance cheat sheet for everything in this module. Have them run it o
 - **What if I lose a chat?** Your edits live under the version arrows, and Projects keep your work
 
 Note: Answer the real questions in a beginner's head. Data safety is covered in depth in Module 2, keep it to one line here.
+
+---
+
+<div class="lesson-no">Lesson 1.8 · Recap</div>
+
+# Quick recap
+
+- Claude works in your browser and on a schedule
+- A quick guide picks the right tool for a task
+- The common beginner questions, answered
+
+Note: A ten second reminder of Lesson 1.8, then move on.
 
 ---
 
