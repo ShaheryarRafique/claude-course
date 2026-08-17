@@ -1,0 +1,13 @@
+month,orders,revenue_usd,returns,top_category
+2024-01,412,18540,14,Accessories
+2024-02,388,17220,11,Accessories
+2024-03,455,21300,17,Apparel
+2024-04,470,22110,15,Apparel
+2024-05,510,24800,19,Apparel
+2024-06,498,23950,22,Footwear
+2024-07,462,21870,20,Footwear
+2024-08,505,24300,18,Footwear
+2024-09,540,26980,16,Apparel
+2024-10,588,29850,21,Apparel
+2024-11,742,41200,28,Accessories
+2024-12,910,52600,34,Accessories

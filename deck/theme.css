@@ -1,0 +1,442 @@
+/*
+  Claude Zero to Master, custom slide theme.
+  Brand: maroon and black on a warm cream canvas. Clean professional sans (Plus Jakarta Sans).
+  Change the values under :root to restyle the whole deck at once.
+*/
+
+:root {
+  --ink: #17181a;          /* main text, near black */
+  --muted: #6b6f76;        /* secondary text */
+  --cream: #f7f5f0;        /* content slide canvas */
+  --dark: #17181a;         /* divider slide background */
+  --accent: #7c2d3a;       /* brand maroon */
+  --accent-soft: #b8848d;  /* softer maroon for dark slides */
+  --core: #3f6d8c;
+  --builder: #b0743a;
+  --dev: #6a5a92;
+  --line: #e4e0d6;         /* hairline on cream */
+  --font: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+}
+
+/* ---------- canvas ---------- */
+.reveal-viewport { background-color: var(--cream) !important; }
+.reveal { font-family: var(--font); color: var(--ink); font-size: 30px; font-weight: 500; -webkit-font-smoothing: antialiased; }
+.reveal .slides { text-align: left; }
+.reveal .slides section { padding: 0 7% 0 8.5%; box-sizing: border-box; }
+
+/* ---------- headings ---------- */
+.reveal h1, .reveal h2 {
+  font-family: var(--font);
+  font-weight: 800;
+  text-transform: none;
+  letter-spacing: -0.025em;
+  line-height: 1.06;
+  margin: 0 0 0.45em 0;
+  color: var(--ink);
+}
+.reveal h1 { font-size: 1.85em; }
+.reveal h2 { font-size: 1.5em; }
+.reveal h3 {
+  font-family: var(--font);
+  font-size: 0.66em;
+  color: var(--muted);
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  margin: 0 0 0.9em 0;
+}
+
+/* content headings sit flush, no decorative bar */
+
+.reveal p { line-height: 1.4; }
+
+/* ---------- bullets ---------- */
+.reveal ul { list-style: none; margin: 0.5em 0 0 0; }
+.reveal ul li { position: relative; padding-left: 1.35em; margin-bottom: 0.62em; line-height: 1.34; }
+.reveal ul li::before {
+  content: "";
+  position: absolute;
+  left: 0.05em;
+  top: 0.52em;
+  width: 0.42em;
+  height: 0.42em;
+  border-radius: 50%;
+  background: var(--accent);
+}
+.reveal strong { font-weight: 700; }
+.reveal section:not(.dark) strong { color: var(--accent); }
+
+/* ---------- lesson kicker ---------- */
+.reveal .lesson-no {
+  font-size: 0.58em;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.85em;
+}
+
+/* ---------- big module number on dividers ---------- */
+.reveal .mod-num {
+  position: absolute;
+  top: 8%;
+  right: 8%;
+  font-size: 3.6em;
+  font-weight: 800;
+  line-height: 1;
+  color: transparent;
+  -webkit-text-stroke: 1.5px rgba(184,132,141,0.5);
+  letter-spacing: -0.03em;
+  pointer-events: none;
+}
+
+/* ---------- track chips ---------- */
+.reveal .tag {
+  display: inline-block;
+  font-size: 0.44em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 0.3em 0.85em;
+  border-radius: 5px;
+  color: #fff;
+  vertical-align: middle;
+  margin-right: 0.25em;
+}
+.reveal .tag.core { background: var(--core); }
+.reveal .tag.builder { background: var(--builder); }
+.reveal .tag.dev { background: var(--dev); }
+
+/* ---------- demo marker ---------- */
+.reveal .demo {
+  display: inline-block;
+  margin-top: 0.7em;
+  color: #fff;
+  background: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  font-size: 0.54em;
+  padding: 0.4em 0.9em;
+  border-radius: 5px;
+}
+
+/* ---------- cover meta strip ---------- */
+.reveal .meta {
+  margin-top: 1.3em;
+  font-size: 0.5em;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-soft);
+}
+
+/* ---------- divider (dark, full bleed) ---------- */
+.reveal section.dark { text-align: left; }
+.reveal section.dark h1,
+.reveal section.dark h2 { color: #f7f5f0; }
+.reveal section.dark h2 { font-size: 2.15em; }
+.reveal section.dark h3 { color: var(--accent-soft); }
+.reveal section.dark p { color: #b7bcc4; }
+.reveal section.dark li { color: #d3d7dd; }
+.reveal section.dark strong { color: var(--accent-soft); }
+.reveal section.dark .lesson-no { color: var(--accent-soft); }
+
+/* keep instructor text clear of the headshot on the right */
+.reveal section.instructor > h2 { font-size: 2.25em; margin-bottom: 0.1em; white-space: nowrap; max-width: none; }
+.reveal section.instructor > p { max-width: 66%; }
+
+/* instructor positioning line */
+.reveal .tagline {
+  font-size: 0.66em;
+  font-weight: 500;
+  color: #e3e0da;
+  margin: 0.5em 0 0 0;
+}
+
+/* big credibility stats */
+.reveal .stats {
+  display: flex;
+  gap: 3.4em;
+  margin-top: 1.6em;
+  max-width: 78%;
+}
+.reveal .stats .stat { display: flex; flex-direction: column; }
+.reveal .stats .num {
+  font-size: 1.7em;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: #d69aa2;
+  white-space: nowrap;
+}
+.reveal .stats .lbl {
+  margin-top: 0.55em;
+  font-size: 0.4em;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #8b9098;
+  white-space: nowrap;
+}
+.reveal .social-row {
+  display: flex;
+  gap: 0.75em;
+  margin-top: 1.7em;
+  flex-wrap: wrap;
+  max-width: 85%;
+}
+.reveal .social-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55em;
+  padding: 0.5em 0.95em;
+  border: 1px solid rgba(255,255,255,0.14);
+  border-radius: 999px;
+  background: rgba(255,255,255,0.03);
+  font-size: 0.42em;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  color: #d3d7dd;
+  line-height: 1;
+}
+.reveal .social-pill svg {
+  width: 1.5em;
+  height: 1.5em;
+  fill: #d69aa2;
+  flex-shrink: 0;
+}
+
+/* ---------- course roadmap ---------- */
+.reveal .roadmap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.55em 2.6em;
+  margin-top: 0.7em;
+  max-width: 92%;
+  font-size: 0.92em;
+}
+.reveal .roadmap .rm { display: flex; align-items: baseline; gap: 0.7em; }
+.reveal .roadmap .rm-n { color: var(--accent); font-weight: 800; min-width: 1.4em; }
+.reveal .roadmap .rm-t { font-weight: 600; color: var(--ink); }
+.reveal .roadmap-foot { margin-top: 1.3em; font-size: 0.6em; color: var(--muted); max-width: 90%; }
+.reveal .roadmap-foot .tag { font-size: 0.68em; }
+
+/* ---------- hands-on "try this" callout ---------- */
+.reveal .try {
+  margin-top: 1.2em;
+  font-size: 0.64em;
+  color: var(--ink);
+  max-width: 86%;
+  line-height: 1.4;
+}
+.reveal .try b {
+  color: var(--accent);
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.78em;
+  margin-right: 0.7em;
+}
+
+/* ---------- comparison table ---------- */
+.reveal table {
+  margin: 0.7em auto 0;
+  border-collapse: collapse;
+  width: 94%;
+  font-size: 0.6em;
+}
+.reveal table th,
+.reveal table td {
+  text-align: left;
+  padding: 0.5em 0.85em;
+  border-bottom: 1px solid rgba(23, 24, 26, 0.12);
+  vertical-align: top;
+}
+.reveal table thead th {
+  color: var(--accent);
+  font-weight: 700;
+  border-bottom: 2px solid var(--accent);
+}
+.reveal table tbody td:first-child {
+  color: var(--muted);
+}
+.reveal table tbody td:last-child {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+/* ---------- question / verdict / why (used on the dark "try it" slide) ---------- */
+.reveal .qa {
+  margin-top: 0.7em;
+  max-width: 96%;
+}
+.reveal .qa-item {
+  padding: 0.5em 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+.reveal .qa-item:first-child {
+  border-top: none;
+}
+.reveal .qa-q {
+  font-size: 0.66em;
+  font-weight: 700;
+  line-height: 1.35;
+}
+.reveal .qa-line {
+  margin-top: 0.35em;
+  display: flex;
+  align-items: baseline;
+  gap: 0.8em;
+  font-size: 0.6em;
+}
+.reveal .qa-tag {
+  flex: 0 0 auto;
+  padding: 0.12em 0.75em;
+  border-radius: 5px;
+  font-size: 0.82em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.reveal .qa-tag.bot {
+  background: rgba(255, 255, 255, 0.14);
+  color: rgba(255, 255, 255, 0.78);
+}
+.reveal .qa-tag.assist {
+  background: var(--accent);
+  color: #fff;
+}
+.reveal .qa-why {
+  color: rgba(255, 255, 255, 0.62);
+  line-height: 1.35;
+}
+.reveal .rule {
+  margin-top: 1.05em;
+  font-size: 0.64em;
+  font-weight: 600;
+}
+.reveal .rule b {
+  color: var(--accent);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.82em;
+  margin-right: 0.6em;
+  font-weight: 700;
+}
+
+/* ---------- prompt card (shows the actual prompt on a slide) ---------- */
+.reveal .promptcard {
+  margin: 0.9em auto 0;
+  max-width: 90%;
+  border: 1px solid rgba(23, 24, 26, 0.16);
+  border-radius: 10px;
+  padding: 0.85em 1.05em;
+  background: #fffdf9;
+}
+.reveal .promptcard .lbl {
+  display: block;
+  color: var(--accent);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.5em;
+  margin-bottom: 0.45em;
+}
+.reveal .promptcard p {
+  margin: 0;
+  font-size: 0.68em;
+  line-height: 1.5;
+  color: var(--ink);
+}
+.reveal .promptcard + .demo {
+  margin-top: 1em;
+}
+
+/* ---------- recurring "habit in focus" thread cue ---------- */
+.reveal .thread {
+  margin-top: 1.3em;
+  display: inline-block;
+  font-size: 0.5em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border-left: 3px solid var(--accent);
+  padding: 0.1em 0 0.1em 0.7em;
+}
+
+/* ---------- use case grid (two columns) ---------- */
+.reveal .uc-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.6em 2.6em;
+  margin-top: 0.7em;
+  max-width: 92%;
+  font-size: 0.92em;
+}
+.reveal .uc-grid .uc { position: relative; padding-left: 1.3em; color: var(--ink); }
+.reveal .uc-grid .uc::before {
+  content: "";
+  position: absolute;
+  left: 0.05em;
+  top: 0.5em;
+  width: 0.4em;
+  height: 0.4em;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+/* ---------- instructor headshot placeholder ---------- */
+.reveal .headshot {
+  position: absolute;
+  top: 50%;
+  right: 9%;
+  transform: translateY(-50%);
+  width: 300px;
+  height: 360px;
+  border-radius: 14px;
+  border: 2px dashed rgba(184,132,141,0.45);
+  background: rgba(255,255,255,0.03);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #7c7169;
+  font-size: 0.5em;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* ---------- fixed brand footer ---------- */
+.reveal .brand-footer {
+  position: fixed;
+  bottom: 20px;
+  left: 32px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: #a9a196;
+  z-index: 30;
+  pointer-events: none;
+}
+
+/* ---------- code ---------- */
+.reveal pre { box-shadow: none; font-size: 0.6em; width: 100%; }
+.reveal code { border-radius: 6px; }
+
+/* ---------- reveal chrome ---------- */
+.reveal .progress { color: var(--accent); height: 3px; }
+.reveal .controls { color: var(--accent); }
+.reveal .slide-number {
+  background: transparent;
+  color: #a9a196;
+  font-family: var(--font);
+  font-weight: 600;
+  font-size: 12px;
+  right: 26px;
+  bottom: 16px;
+}
