@@ -291,7 +291,13 @@ Every fix is the same move: use the technique, stage, task, and rules.
 
 <span class="demo">Demo</span>
 
-Note: Run one or two live. Send the weak version, then the better version, and let the difference speak. Every "try" uses the stage, task, and rules technique from Lesson 1.2. Prompts in the copy-paste doc.
+<div class="refs">
+<a href="https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview" target="_blank" rel="noopener"><span class="ref-src">Anthropic ·</span> Prompt engineering overview</a>
+<a href="https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/be-clear-and-direct" target="_blank" rel="noopener"><span class="ref-src">Anthropic ·</span> Be clear, direct, and detailed</a>
+<a href="https://www.promptingguide.ai/" target="_blank" rel="noopener"><span class="ref-src">Guide ·</span> Prompt Engineering Guide</a>
+</div>
+
+Note: Run one or two live. Send the weak version, then the better version, and let the difference speak. Every "try" uses the stage, task, and rules technique from Lesson 1.2. Prompts in the copy-paste doc. The reference links open the source articles for students who want to read deeper after class, click to open in a new tab.
 
 ---
 
@@ -353,6 +359,20 @@ Note: Lesson title card. Claude is not just the chat box. This is the tour of wh
 
 ---
 
+<div class="lesson-no">Lesson 1.4 · The basics</div>
+
+# What is a model, or an LLM?
+
+- A **model** is the engine behind Claude, it writes the reply
+- **LLM** means large language model, trained on huge amounts of text
+- It predicts language, it does not look answers up
+
+Claude is the app. The model is what is thinking underneath it.
+
+Note: One term to demystify before picking a model. Keep it plain and quick: engine, not search index. Sets up the next slide, where model becomes something to choose.
+
+---
+
 <div class="lesson-no">Lesson 1.4 · Your model</div>
 
 # Pick the right model
@@ -370,17 +390,33 @@ Note: Verified 2026-08-17, current lineup Opus 5, Sonnet 5, Haiku 4.5, Fable 5. 
 
 ---
 
+<div class="lesson-no">Lesson 1.4 · Tokens</div>
+
+# What is a token?
+
+A **token** is a small chunk of text, roughly three quarters of a word. Claude reads and writes in tokens.
+
+"Claude is helpful" splits into 4 tokens: `Claude` `is` `help` `ful`.
+
+More effort means more tokens spent thinking before you get a reply.
+
+Note: Quick definition, not a deep dive. The split example makes it concrete, "helpful" breaking into "help" and "ful" is the aha moment, words are not always one token. Just enough so "effort" and "tokens" on the next slide make sense: higher effort burns more tokens per reply. Keep it to one breath.
+
+---
+
 <div class="lesson-no">Lesson 1.4 · Effort</div>
 
 # Set the effort
 
 Effort is how hard the model thinks before it answers.
 
-- **Low** and **Medium** quick, simple tasks
-- **High** the default, right for most work
-- **Extra high** and **Max** the hardest reasoning, slower but deeper
+| Effort | Good for | Example |
+| --- | --- | --- |
+| Low, Medium | Quick, simple tasks | "Fix this typo" |
+| High (default) | Most everyday work | "Draft a reply to this email" |
+| Extra high, Max | Hard reasoning, slower but deeper | "Debug why this script fails" |
 
-High is already on by default, so turn it up only for genuinely hard problems. The top levels are not on every model.
+High is already on by default, turn it up only for genuinely hard problems. The top levels are not on every model.
 
 Note: Verified 2026-08-17. Five levels: Low, Medium, High, Extra high (xhigh), Max. Default is High. Extra high and Max are not on Haiku. Effort and thinking are separate settings, this replaced the old "extended thinking" toggle.
 
@@ -390,12 +426,14 @@ Note: Verified 2026-08-17. Five levels: Low, Medium, High, Extra high (xhigh), M
 
 # Turn on the right tool
 
-Turn on what the task needs:
+A **tool** lets Claude step outside the chat to get what it does not already know.
 
-- **Web search** current facts, with links you can check
-- **Research** a deep, cited report pulled from many sources over a few minutes
+| Tool | Gives you |
+| --- | --- |
+| Web search | Current facts, with links you can check |
+| Research | A deep, cited report from many sources |
 
-Research is on the paid plans and needs web search on. For hard thinking with no web, just raise the effort.
+Research needs web search on, and is on the paid plans. For hard thinking with no web, just raise the effort.
 
 <span class="demo">Demo</span>
 
