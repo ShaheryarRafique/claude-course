@@ -4,11 +4,11 @@
 
 ### Module 2
 
-## The 4D Framework
+## Claude's Toolkit
 
-<span class="tag core">Core</span> For everyone · about 4 hours
+<span class="tag core">Core</span> For everyone · about 1 hour 20 min
 
-Note: This module follows Anthropic's AI Fluency course. Module 1 taught the tool. This module teaches the method: how to work with AI so the results are good enough to depend on. Nine lessons, each a title card, an exercise, and a clean script. Two things the student keeps: a briefing sheet and their own AI use policy. Clean slides, the solve-together demos and reflection questions live in the recording script.
+Note: This module follows Anthropic's own Claude 101. You met Claude and had your first conversation in Module 1. Now the rest of the app: the tools you can turn on, then Projects, Artifacts, and Memory. Five lessons, each a recorded video with a title card, an exercise, and every prompt ready in the copy-paste doc (resources/module-01-copypaste.md). We do not teach the 4D framework here, that is all of Module 3.
 
 ---
 
@@ -16,76 +16,137 @@ Note: This module follows Anthropic's AI Fluency course. Module 1 taught the too
 
 # By the end of this module
 
-- Work with AI the fluent way: efficient, effective, ethical, and safe
-- Use the four habits, Delegation, Description, Discernment, and Diligence, on real work
-- Automate one repetitive task end to end, and write your own AI use policy
+- Feed it files, choose the right model, and turn on the right tool
+- Build a lasting Project with instructions and a knowledge base
+- Build an Artifact, and set up Memory and a Style
 
-Note: Module objectives. Point out the two keepsakes: a briefing sheet and a policy. Read with energy.
+Note: Module objectives, Anthropic style. Every claim here is an app skill, not a mindset. The mindset is Module 3.
 
 ---
 
 <!-- .slide: data-background-color="#17181a" class="dark" -->
 
-<div class="lesson-no">Lesson 2.1 · 15 min</div>
+<div class="lesson-no">Lesson 2.1 · 18 min</div>
 
-## What is AI Fluency?
+## Make Claude more powerful
 
 By the end of this lesson you will be able to:
 
-- Define AI Fluency and name the four habits
-- See how the two loops shape every task
-- Build a reusable briefing sheet about your work
+- Pick the right model, and set the effort
+- Turn on web search and research
+- Connect your apps, and use skills
 
-Note: Lesson title card. This is the first time the four habits appear in the course, so they land fresh. The two loops are the mental model for the whole module.
-
----
-
-<div class="lesson-no">Lesson 2.1 · The idea</div>
-
-# Fluency, in four words
-
-Working with AI well is a skill you can learn, not a trick. Fluent use is:
-
-- **Efficient** you get there with less effort and less wasted time
-- **Effective** the result is actually good, and actually useful
-- **Ethical** you use it honestly and responsibly
-- **Safe** you protect your data and your people
-
-Note: AI Fluency is using AI in ways that are efficient, effective, ethical, and safe. Anyone can type into a chat box. Fluency is getting real value out of it without creating a mess.
+Note: Lesson title card. Claude is not just the chat box. This is the tour of what you can turn on to make it far more capable. The hands-on setup for connectors, skills, and cowork comes in Module 4.
 
 ---
 
-<div class="lesson-no">Lesson 2.1 · The four habits</div>
+<div class="lesson-no">Lesson 2.1 · The basics</div>
 
-# The four habits
+# What is a model, or an LLM?
 
-- **Delegation** decide what AI handles, and what stays with you
-- **Description** say clearly what you need, and how you want it done
-- **Discernment** judge what comes back before you act on it
-- **Diligence** verify, be honest about AI's role, and own the result
+- A **model** is the engine behind Claude, it writes the reply
+- **LLM** means large language model, trained on huge amounts of text
+- It predicts language, it does not look answers up
 
-Note: The 4D framework, from Professors Rick Dakan and Joseph Feller. Each habit gets its own lesson in this module. A weak link breaks the chain.
+Claude is the app. The model is what is thinking underneath it.
+
+Note: One term to demystify before picking a model. Keep it plain and quick: engine, not search index. Sets up the next slide, where model becomes something to choose.
 
 ---
 
-<div class="lesson-no">Lesson 2.1 · How they fit</div>
+<div class="lesson-no">Lesson 2.1 · Your model</div>
 
-# Two loops that run every time
+# Pick the right model
 
-<div class="qa">
-<div class="qa-item">
-<div class="qa-q">Inner loop · Description and Discernment</div>
-<div class="qa-line"><span class="qa-tag assist">Every reply</span><span class="qa-why">You describe, Claude answers, you judge what is useful, then you describe again, sharper. This is where the work gets made.</span></div>
-</div>
-<div class="qa-item">
-<div class="qa-q">Outer loop · Delegation and Diligence</div>
-<div class="qa-line"><span class="qa-tag bot">Around it</span><span class="qa-why">Before you start, decide what to hand over. After you finish, own the result.</span></div>
-</div>
-</div>
+| When you need | Pick |
+| --- | --- |
+| Speed on a quick, simple task | Haiku |
+| The everyday default, for most work | Sonnet |
+| Deep reasoning on a hard problem | Opus |
+| A large, long, multi-step project | Fable |
 
-<p class="rule"><b>In short</b> Delegation sets the stage, Description and Discernment do the work, Diligence closes it.</p>
+Free gives you Haiku and Sonnet. Opus and Fable are on the paid plans. Start on the everyday model, and move up only when the task needs it.
 
-Note: The most important slide in the module. Draw the two loops in the air: a tight inner loop of back and forth, wrapped by an outer loop of decide-then-own. Every lesson after this is one part of these loops.
+Note: Verified 2026-08-17, current lineup Opus 5, Sonnet 5, Haiku 4.5, Fable 5. Capability ladder is Haiku, Sonnet, Opus, Fable, with Fable built for long, autonomous work. Re-verify version numbers before recording.
+
+---
+
+<div class="lesson-no">Lesson 2.1 · Tokens</div>
+
+# What is a token?
+
+A **token** is a small chunk of text, roughly three quarters of a word. Claude reads and writes in tokens.
+
+"Claude is helpful" splits into 4 tokens: `Claude` `is` `help` `ful`.
+
+More effort means more tokens spent thinking before you get a reply.
+
+Note: Quick definition, not a deep dive. The split example makes it concrete, "helpful" breaking into "help" and "ful" is the aha moment, words are not always one token. Just enough so "effort" and "tokens" on the next slide make sense: higher effort burns more tokens per reply. Keep it to one breath.
+
+---
+
+<div class="lesson-no">Lesson 2.1 · Effort</div>
+
+# Set the effort
+
+Effort is how hard the model thinks before it answers.
+
+| Effort | Good for | Example |
+| --- | --- | --- |
+| Low, Medium | Quick, simple tasks | "Fix this typo" |
+| High (default) | Most everyday work | "Draft a reply to this email" |
+| Extra high, Max | Hard reasoning, slower but deeper | "Debug why this script fails" |
+
+High is already on by default, turn it up only for genuinely hard problems. The top levels are not on every model.
+
+Note: Verified 2026-08-17. Five levels: Low, Medium, High, Extra high (xhigh), Max. Default is High. Extra high and Max are not on Haiku. Effort and thinking are separate settings, this replaced the old "extended thinking" toggle.
+
+---
+
+<div class="lesson-no">Lesson 2.1 · The toolbox</div>
+
+# Turn on the right tool
+
+A **tool** lets Claude step outside the chat to get what it does not already know.
+
+| Tool | Gives you |
+| --- | --- |
+| Web search | Current facts, with links you can check |
+| Research | A deep, cited report from many sources |
+
+Research needs web search on, and is on the paid plans. For hard thinking with no web, just raise the effort.
+
+<span class="demo">Demo</span>
+
+Note: Web search for a quick current fact, research for a deep cited report. Hard reasoning is now the effort control, not a separate tool. UI placement of these toggles shifts, so verify before recording.
+
+---
+
+<div class="lesson-no">Lesson 2.1 · Connectors</div>
+
+# Connect your apps
+
+Connectors let Claude use the tools you already work in.
+
+- **Google Calendar** "what is on my calendar next week?"
+- **Gmail** "draft a reply to the latest email from my client"
+- **Notion or Drive** "find our pricing doc and summarise it"
+- **Custom** wire up your own tool with a custom connector
+
+Claude reads your data, and with your permission, takes actions for you.
+
+Note: Famous connectors: Google Calendar, Gmail, Notion, Google Drive, Slack, and many more, plus custom connectors built on the open MCP standard. Claude only sees what you can see. Deep setup and workflows are Module 4.
+
+---
+
+<div class="lesson-no">Lesson 2.1 · Skills and plugins</div>
+
+# Skills and plugins
+
+- **Skills** reusable expertise Claude loads for a task. Built-in skills make Excel sheets, slide decks, Word docs, and PDFs. You can build your own for a workflow you repeat
+- **Plugins** ready-made bundles of skills and connectors for a kind of work, like sales or finance
+
+Note: Skills are how-to packages Claude loads when relevant, the Office file creation is a skill. Custom skills codify your own workflow. Plugins bundle skills and connectors for a role. Deep dive in Module 4.
 
 ---
 
@@ -93,62 +154,62 @@ Note: The most important slide in the module. Draw the two loops in the air: a t
 
 # Try it yourself
 
-The fastest way to better answers is to stop re-explaining yourself. Build one reusable document about you and your work.
+<p class="try"><b>Your turn</b> Turn on web search and ask Claude something that changed this week, then click a link to check it.</p>
 
-<p class="try"><b>Your turn</b> Ask Claude to interview you about your role, goals, and standards, then have it write a short briefing sheet you can paste into any future chat.</p>
+<div class="uc-grid">
+<div class="uc">Connect your calendar and ask what is coming up</div>
+<div class="uc">Run Research for a short cited report</div>
+<div class="uc">Ask for an Excel sheet or a slide deck</div>
+<div class="uc">Raise the effort on one hard question</div>
+</div>
 
-Note: Running deliverable one. In the script, build it live: tell Claude you want a reusable context document, let it ask questions, then have it synthesise. Student version is your course and goals, professional version is your role and clients. Prompt in the copy-paste doc. Reflection to pose aloud: what did the briefing sheet capture that you would have kept re-typing?
+Or try any tool on a task from your own week.
+
+Note: Get them to turn a tool on and see the difference. In the script, run web search live and click a citation. Reflection to pose aloud: which tool will you use most? Prompts in the copy-paste doc.
 
 ---
 
 <!-- .slide: data-background-color="#17181a" class="dark" -->
 
-<div class="lesson-no">Lesson 2.2 · 20 min</div>
+<div class="lesson-no">Lesson 2.2 · 18 min</div>
 
-## How AI actually works
+## Projects
 
 By the end of this lesson you will be able to:
 
-- Understand, simply, how AI predicts text
-- Tell its real strengths from its real limits
-- Test the edges on a topic you know
+- Explain what a Project is and when to use one
+- Set instructions and a knowledge base
+- Build a reusable workspace
 
-Note: Lesson title card. Just enough of how it works to set clear-eyed expectations, then a hands-on test. No maths.
-
----
-
-<div class="lesson-no">Lesson 2.2 · The core idea</div>
-
-# It predicts the next word
-
-Remember typing a text using only your phone's suggested words? That is the whole idea, scaled up.
-
-- The model learned patterns from a huge amount of text
-- Given what came so far, it picks a likely next word, then repeats
-- No lookup, no database of facts, just very good prediction
-
-That is why it writes so fluently, and also why it can sound confident and still be wrong.
-
-Note: The plain-English "how it works" beat. The point is the intuition, not the maths: prediction explains both the magic and the mistakes.
+Note: Lesson title card with its objectives. Mirrors Claude 101 "introduction to projects". From here we build one thing all module: an exam prep workspace. Professionals build the same for a client or a job hunt.
 
 ---
 
-<div class="lesson-no">Lesson 2.2 · Know the shape of it</div>
+<div class="lesson-no">Lesson 2.2 · Your workspace</div>
 
-# Strong here, shaky there
+# A reusable workspace
 
-<div class="uc-grid">
-<div class="uc"><strong>Strong</strong> writing and rewriting in any tone</div>
-<div class="uc"><strong>Shaky</strong> exact facts, names, and numbers</div>
-<div class="uc"><strong>Strong</strong> explaining and summarising</div>
-<div class="uc"><strong>Shaky</strong> anything after its training cutoff</div>
-<div class="uc"><strong>Strong</strong> drafting, planning, and coding</div>
-<div class="uc"><strong>Shaky</strong> long chains of careful steps</div>
-</div>
+- **What** one place for your instructions and files, for one thing you do again and again
+- **Why** Claude keeps your context, so you never re-explain yourself
+- **When** a course, a client, a job hunt, a research topic
+- The rule people miss: chats in a Project do not share context, only the knowledge base does
 
-The best work pairs its speed and range with your judgement and knowledge.
+Note: Faithful to Claude 101: Projects are self-contained workspaces with their own chats, knowledge base, and instructions. Foreground the "context is not shared unless it is in the knowledge base" rule, it is the most missed idea.
 
-Note: Strengths: versatility, conversational flow, connecting to tools. Limits: knowledge cutoffs, hallucinations, context size, complex multi-step reasoning. Frame it as a partnership, not a replacement.
+---
+
+<div class="lesson-no">Lesson 2.2 · Set it up</div>
+
+# Instructions and knowledge base
+
+- **Instructions** tell Claude how to behave everywhere in the Project: tone, role, format
+- **Knowledge base** holds the files Claude should always use
+- Name your files clearly, Claude uses the names to find the right one
+- As your files grow, Claude searches them for you automatically
+
+<span class="demo">Demo</span>
+
+Note: Claude 101's setup steps. Build it live: create the Project, paste a tutor instruction, upload the syllabus, then show the before and after. Descriptive file names matter. Full script in the copy-paste doc.
 
 ---
 
@@ -156,50 +217,60 @@ Note: Strengths: versatility, conversational flow, connecting to tools. Limits: 
 
 # Try it yourself
 
-<p class="try"><b>Your turn</b> Pick a topic you know cold. Ask Claude to explain it for three different audiences, then ask it for two real sources and check that one exists.</p>
+<p class="try"><b>Your turn</b> Create your own Project, write its instructions, and upload one real file.</p>
 
-Note: The hallucination test made concrete. In the script, run all three checks live: range, made-up sources, and out-of-date facts. When students catch a fabricated source themselves, the lesson sticks. Reflection aloud: which limit surprised you most?
+<div class="uc-grid">
+<div class="uc">Exam prep, one Project per subject</div>
+<div class="uc">A freelance client workspace</div>
+<div class="uc">Your job hunt: CV, roles, and prep</div>
+<div class="uc">A thesis or research workspace</div>
+</div>
+
+Note: They build their own Project now. The grid gives ideas for students and professionals. Prompts and instructions text in the copy-paste doc.
 
 ---
 
 <!-- .slide: data-background-color="#17181a" class="dark" -->
 
-<div class="lesson-no">Lesson 2.3 · 15 min</div>
+<div class="lesson-no">Lesson 2.3 · 18 min</div>
 
-## Delegation
+## Artifacts
 
 By the end of this lesson you will be able to:
 
-- Decide what to hand to AI and what to keep
-- Sort any task into three buckets
-- Apply it to your own week
+- Explain what an Artifact is and when Claude makes one
+- Build a usable tool with no code
+- Share or publish what you make
 
-Note: Lesson title card. The outer loop begins here: deciding what is even worth handing over.
+Note: Lesson title card with its objectives. Mirrors Claude 101 "creating with artifacts". This Artifact goes into their exam prep Project.
 
 ---
 
-<div class="lesson-no">Lesson 2.3 · The real question</div>
+<div class="lesson-no">Lesson 2.3 · What it is</div>
 
-# Should AI do this, not can it
+# Build it, do not just chat about it
 
-The skill is not getting AI to do everything. It is choosing well. Sort any task into three buckets:
+- An Artifact is a standalone, usable output in a window beside the chat
+- Claude makes one when the content is big, self contained, and something you will reuse
+- Documents, web pages, charts, diagrams, and interactive tools
+- Word, Excel, and PowerPoint come back as files you can download
 
-<div class="qa">
-<div class="qa-item">
-<div class="qa-q">Standard, repeatable, low risk</div>
-<div class="qa-line"><span class="qa-tag assist">AI handles it</span><span class="qa-why">FAQs, first drafts, summaries.</span></div>
-</div>
-<div class="qa-item">
-<div class="qa-q">It prepares, you approve</div>
-<div class="qa-line"><span class="qa-tag assist">AI assists</span><span class="qa-why">Client emails, analysis you sign off on.</span></div>
-</div>
-<div class="qa-item">
-<div class="qa-q">High stakes or sensitive</div>
-<div class="qa-line"><span class="qa-tag bot">Human only</span><span class="qa-why">Complaints, negotiations, judgement calls.</span></div>
-</div>
-</div>
+Note: Faithful to Claude 101: Claude creates an artifact when content is significant and self contained, typically over fifteen lines, and something you will edit or reuse. Office files are file creation, not artifacts.
 
-Note: The three buckets are the heart of Delegation. The deciding factor is the cost of an error: the higher the stakes, the more human it stays.
+---
+
+<div class="lesson-no">Lesson 2.3 · Build and share</div>
+
+# From idea to shareable tool
+
+- Just describe what you want, or say "put this in an artifact"
+- Be specific, and say who it is for
+- Change one thing at a time: "make the bar green", "save my data"
+- **Publish** gives a link anyone can use, no account needed
+
+<span class="demo">Demo</span>
+
+Note: Claude 101's create-iterate-publish flow. Live build: ask for a study tracker, refine one step at a time, then publish. Only that version becomes public and it is not indexed by search engines. Full script in the copy-paste doc.
 
 ---
 
@@ -207,261 +278,119 @@ Note: The three buckets are the heart of Delegation. The deciding factor is the 
 
 # Try it yourself
 
-<p class="try"><b>Your turn</b> List five tasks from your week, and drop each one into a bucket: AI handles it, AI assists, or human only.</p>
+<p class="try"><b>Your turn</b> Build one small tool for yourself, then publish it and send the link to a friend.</p>
 
-Note: Get them to sort their own week, this is where it becomes real. In the script, sort three tasks live. Reflection aloud: were you surprised how many were safe to hand over?
+<div class="uc-grid">
+<div class="uc">A flashcard app for revision</div>
+<div class="uc">A budget or tip calculator</div>
+<div class="uc">A one page resume</div>
+<div class="uc">A quiz to test yourself</div>
+</div>
 
----
-
-<!-- .slide: data-background-color="#17181a" class="dark" -->
-
-<div class="lesson-no">Lesson 2.4 · 20 min</div>
-
-## Description
-
-By the end of this lesson you will be able to:
-
-- Go beyond the basic technique to describe a whole task
-- Lift quality by showing an example
-- Run the describe and improve loop
-
-Note: Lesson title card. Description is the inner loop's first half. In Module 1 they learned the stage, task, rules technique. This lesson builds on it, it does not repeat it.
-
----
-
-<div class="lesson-no">Lesson 2.4 · Go deeper</div>
-
-# From a prompt to a brief
-
-You already know the technique from Module 1: set the stage, define the task, specify the rules. Now go one level up.
-
-- **Give an example** paste a sample of what good looks like, and say "match this"
-- **Describe the steps** for anything with more than one part, spell out the order
-- **Say what to avoid** name the mistakes you do not want
-
-One good example in your prompt beats a page of adjectives.
-
-Note: This builds on Module 1, it does not re-teach the technique. The new moves are examples, process, and negative constraints. Show, do not just tell, is the highest-leverage habit after context.
-
----
-
-<div class="lesson-no">Lesson 2.4 · The loop</div>
-
-# Describe, then improve
-
-Your first prompt is the start of a conversation, not a one-shot.
-
-- Read the reply, keep what works, and say exactly what to change
-- "Cut the first paragraph and make the ending a clear next step"
-- Each round, your description gets sharper. That is the inner loop
-
-<p class="try"><b>Your turn</b> Take a weak reply and improve it by adding one example of what you actually want.</p>
-
-Note: This is Description working with Discernment, the inner loop. In the script, demo a weak first answer, one sharp correction with an example, and a much better second answer. Reflection aloud: what did the example change?
+Note: They build and publish their own Artifact. All no code, all in minutes. Example prompts in the copy-paste doc.
 
 ---
 
 <!-- .slide: data-background-color="#17181a" class="dark" -->
 
-<div class="lesson-no">Lesson 2.5 · 15 min</div>
+<div class="lesson-no">Lesson 2.4 · 12 min</div>
 
-## Discernment
+## Memory and Styles
 
 By the end of this lesson you will be able to:
 
-- Judge AI output before you act on it
-- Spot claims that need checking
-- Test a task with a quick five-example check
+- Understand how Claude's Memory works
+- Save context so you never repeat yourself
+- Set a Style for Claude's voice
 
-Note: Lesson title card. Discernment is the inner loop's second half: judging what comes back, and feeding that judgement into the next prompt.
-
----
-
-<div class="lesson-no">Lesson 2.5 · The habit</div>
-
-# Judge before you use it
-
-Never act on the first answer without a look. Each round, ask:
-
-- Is it accurate? Flag any claim, number, or date to check against a real source
-- Is it relevant to my situation, or just generic?
-- What is missing that only I would know?
-
-The gap between what Claude sees and what you know is where your value sits.
-
-Note: Discernment in action. Model it live: a generic first answer, one sharp correction from the student's own knowledge, a far better second answer.
+Note: Lesson title card with its objectives. From Claude 101's personalizing content: Memory and Styles.
 
 ---
 
-<div class="lesson-no">Lesson 2.5 · Your turn</div>
+<div class="lesson-no">Lesson 2.4 · It remembers you</div>
 
-# Try it yourself
+# Memory, in three layers
 
-Before you trust Claude with a task you repeat, test it once, properly.
+- Claude saves key context: your role, preferences, and decisions
+- Standalone chats share one memory
+- Each Project has its own separate memory
+- Incognito remembers nothing
 
-<p class="try"><b>Your turn</b> Take a task you do often. Give Claude five real examples you have already done well, and compare its version to yours. What did it match, and what did it miss?</p>
+<p class="try"><b>Your task</b> Say "Add to memory: I am preparing for finals, target 85 percent", then open Settings, Memory, and see it saved.</p>
 
-Note: This is a lightweight eval in plain language. It builds trust grounded in evidence, not hope. This is the habit that separates fluent users from casual ones. Reflection aloud: would you rely on it for this task now, and where would you still check?
+Note: Faithful to Claude 101: Memory auto-saves context so you stop repeating yourself, and you can review or delete it in Settings. It is a set of structured entries, not a full transcript. Verify the round trip live before recording.
+
+---
+
+<div class="lesson-no">Lesson 2.4 · Its voice</div>
+
+# Set a Style
+
+- Pick a preset: concise, formal, or explanatory
+- Or describe your own voice once
+- Claude keeps that style across every chat
+
+Reflect: what voice do you want Claude to use for your work?
+
+Note: Styles is Memory's twin: Memory is what Claude knows about you, Styles is how it writes. Set it once, it applies everywhere.
 
 ---
 
 <!-- .slide: data-background-color="#17181a" class="dark" -->
 
-<div class="lesson-no">Lesson 2.6 · 15 min</div>
+<div class="lesson-no">Lesson 2.5 · 12 min</div>
 
-## Diligence
-
-By the end of this lesson you will be able to:
-
-- Own and verify AI-assisted work
-- Protect sensitive data before you share it
-- Apply the "would I sign this" test
-
-Note: Lesson title card. The outer loop closes here: owning the result, and protecting your data.
-
----
-
-<div class="lesson-no">Lesson 2.6 · Own it</div>
-
-# Stand behind what you send
-
-AI assisted does not mean AI accountable. Before anything leaves your desk:
-
-- Verify the facts you are relying on
-- Be honest about AI's role when it matters
-- Ask one question: would I put my name on this?
-
-If the answer is no, it is not ready.
-
-Note: Diligence is professionalism, not paperwork. The "would I put my name on this" test is the line to make them remember.
-
----
-
-<div class="lesson-no">Lesson 2.6 · Protect your data</div>
-
-# Be careful what you share
-
-- Remove what is not needed: replace real names with "Client A", cut numbers and contact details
-- Match the tool to the task: the more sensitive the data, the stricter the setting
-- Never paste passwords, secrets, or someone else's private information
-- If something slips out, delete the chat and request data deletion
-
-<p class="try"><b>Your turn</b> Take one real document, make a copy, and remove every sensitive detail before you share it with Claude.</p>
-
-Note: Data hygiene made concrete. Sanitise first is a habit worth drilling, it protects the student, their clients, and their reputation. Reflection aloud: what kind of data will you never paste?
-
----
-
-<!-- .slide: data-background-color="#17181a" class="dark" -->
-
-<div class="lesson-no">Lesson 2.7 · 25 min</div>
-
-## Putting it all together
+## Other ways to work with Claude
 
 By the end of this lesson you will be able to:
 
-- Pick a task worth automating
-- Describe it as Product, Process, and Performance
-- Make it safe, and write a readiness note
+- Use Claude in the browser and on a schedule
+- Pick the right tool with a quick guide
+- Answer the questions beginners ask
 
-Note: Lesson title card. All four habits in one build: automate a real, repetitive task from start to finish.
-
----
-
-<div class="lesson-no">Lesson 2.7 · Pick the task</div>
-
-# Automate one real task
-
-Start where the pain repeats. Look at your week and find a task that is:
-
-- Frequent, so the time saved adds up
-- Mostly standard, not a fresh judgement call each time
-- Low stakes if it is imperfect on the first pass
-
-Answering common questions is a great first candidate. A complaint is not.
-
-Note: Problem awareness plus Delegation. The whole build hangs on choosing a good candidate, so slow down here.
+Note: Lesson title card with its objectives. Mirrors Claude 101's "other ways to work". Light touch, the deep automation is Module 4.
 
 ---
 
-<div class="lesson-no">Lesson 2.7 · Describe the system</div>
+<div class="lesson-no">Lesson 2.5 · Beyond the chat box</div>
 
-# Describe it in three parts
+# Claude where you already work
 
-- **Product** what it makes: the inputs it takes, and the output you want
-- **Process** the steps, in order, like instructions for a careful new hire, including when to stop and ask a human
-- **Performance** the tone, the rules it must never break, and what to do when unsure: "if you are not certain, say so and flag it"
+- **Claude in Chrome** a side panel on any page: summarise, fill forms, take actions
+- **Scheduled tasks** run a job on a schedule, in the cloud, even with your laptop closed
+- Also in **Slack**, **Excel**, **Word**, and **PowerPoint**
 
-Note: This is Description at full strength. In the script, build it live and test with three real examples. Expect two or three rounds of refinement, that refining is Discernment.
+<p class="try"><b>Try this</b> On a long article, open the Chrome side panel: "Summarise this page in five points I can revise from."</p>
 
----
-
-<div class="lesson-no">Lesson 2.7 · Make it safe</div>
-
-# Be diligent before you rely on it
-
-- **Creation** why is this a fair task for AI? List three ways it could go wrong, and a guard for each
-- **Deployment** will you check every output, or spot check? What would make you pause it?
-- **Transparency** who should know AI is involved, and how will you tell them?
-
-<p class="try"><b>Your turn</b> Take your chosen task through all three parts, and write a short readiness note: what you automated, why it is safe, and how you will watch it.</p>
-
-Note: The Diligence half of the build. The readiness note is a real artifact they can reuse and show. All four habits are now in one workflow. Reflection aloud: is this still the right first task to automate?
+Note: Claude in Chrome and scheduled tasks are paid and still in beta, use them on trusted sites and low-risk tasks. Deeper automation is Module 4, Cowork. Keep this a quick tour.
 
 ---
 
-<!-- .slide: data-background-color="#17181a" class="dark" -->
+<div class="lesson-no">Lesson 2.5 · Work like a pro</div>
 
-<div class="lesson-no">Lesson 2.8 · 12 min</div>
+# Your quick decision guide
 
-## Keeping the human in the loop
+When a new task arrives:
 
-By the end of this lesson you will be able to:
+- Something you do often? Make it a **Project**
+- Need a usable tool or document? Ask for an **Artifact**
+- On a web page? Use **Claude in Chrome**
+- Quick and simple? Just ask
 
-- Stay in charge, and avoid dependence
-- Keep the human work human
-- Write your one page AI use policy
-
-Note: Lesson title card. The two big worries, dependency and losing the human touch, and the document that settles them.
-
----
-
-<div class="lesson-no">Lesson 2.8 · Stay in charge</div>
-
-# You decide what AI solves
-
-Being the human in the loop is more than checking the output.
-
-- Avoid dependence through understanding: can you explain what the AI did? Then you are fine
-- Let AI take the repetitive work, so you have more time for the human work, not less
-- The handwritten note, the real conversation, the judgement call, keep those yours
-
-Note: Reframe the fear. AI should free you for more human work, not replace it. Understanding, not avoidance, is how you stay in control.
+Note: A one glance cheat sheet for everything in this module. Have them run it on a real task from their week.
 
 ---
 
-<div class="lesson-no">Lesson 2.8 · Your turn</div>
-
-# Try it yourself
-
-One page, so you and anyone you work with are on the same page.
-
-<p class="try"><b>Your turn</b> Using your briefing sheet from Lesson 2.1, draft a one page policy with three parts: what you use AI for, what stays human, and how you stay accountable.</p>
-
-Note: Running deliverable two. It ties the module together, using the briefing sheet from 2.1. In the script, build it live from the briefing sheet, then make it sound like them. Stress test aloud: if a client asked "do you use AI?", does your policy give an honest answer?
-
----
-
-<div class="lesson-no">Lesson 2.9 · You might be wondering</div>
+<div class="lesson-no">Lesson 2.5 · You might be wondering</div>
 
 # Common questions
 
-- **Will this make me lazy or worse at my job?** Not if you understand what it does. Use it to draft and speed up, keep your own thinking
-- **Is my data safe?** It can be, if you remove sensitive details and check the tool's settings
-- **Is using AI for my work honest?** Yes, when you verify it and are open about its role
-- **Which model or tool should I use?** Start simple, and match the tool to how sensitive and how hard the task is
+- **Is this free?** Most of it. The free plan has some limits, heavier use needs Pro
+- **What about my data?** You control it in settings, and never paste secrets. More on this in Module 3
+- **Is using it for my work honest?** Use it to draft and learn, then make it yours and be open about it
+- **What if I lose a chat?** Your edits live under the version arrows, and Projects keep your work
 
-Note: Answer the real worries in a beginner's head, plainly. These come straight from the fears people voice about AI at work.
+Note: Answer the real questions in a beginner's head. Data safety is covered in depth in Module 3, keep it to one line here.
 
 ---
 
@@ -469,13 +398,11 @@ Note: Answer the real worries in a beginner's head, plainly. These come straight
 
 # What you learned
 
-- AI Fluency is using AI in a way that is efficient, effective, ethical, and safe
-- The four habits: Delegation, Description, Discernment, and Diligence
-- The two loops: describe and discern on the inside, delegate and be diligent around them
-- How AI works, what to trust it with, and how to protect your data
-- You built a briefing sheet, automated a task, and wrote your own AI use policy
+- Your model and effort, and the tools you can turn on
+- Projects, Artifacts, and Memory, the core of the app
+- You set up a reusable workspace and built your own Artifact
 
-Note: Recap before the project. Read it as a checklist of wins. If a point does not land, that is the lesson to revisit.
+Note: Recap of the whole toolkit before the project. Read it as a checklist of wins. Every item is an app skill, which is exactly what this module promised.
 
 ---
 
@@ -483,11 +410,11 @@ Note: Recap before the project. Read it as a checklist of wins. If a point does 
 
 ### Module 2 project
 
-## Automate a task, and write your policy
+## Finish your exam prep workspace
 
-Pick one repetitive task, describe it in three parts, make it safe in three parts, and write its readiness note. Then finish your personal AI use policy.
+A Project with tutor instructions, your syllabus and past papers, Memory of your target, and the study tracker Artifact you built.
 
-Note: The capstone pulls all four habits into one real, reusable result. They leave with a working helper, a readiness note, a policy, and the briefing sheet from 2.1.
+Note: The capstone pulls Modules 1 and 2 together. Professionals build the same for a client or a job hunt. Full brief in the exercises file.
 
 ---
 
@@ -497,6 +424,6 @@ Note: The capstone pulls all four habits into one real, reusable result. They le
 
 ## Coming up in Module 3
 
-Introduction to Cowork: hand whole tasks to Claude and let it do the work while you do something else.
+You can use Claude and the app. Next, the 4D Framework: how to work with AI so the results are reliable enough to depend on.
 
-Note: Bridge to Module 3, Introduction to Cowork. In Module 1 you met the app, in Module 2 you learned to work with AI well, next you put it to work on real, multi-step jobs.
+Note: Clean hand-off. Modules 1 and 2 taught the tool. Module 3 teaches the method, delegating, describing, judging, and verifying. Notice we did not teach the four habits here, so they land fresh next module.
