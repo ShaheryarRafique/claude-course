@@ -65,9 +65,9 @@ Note: One term to demystify before picking a model. Keep it plain and quick: eng
 | Deep reasoning on a hard problem | Opus |
 | A large, long, multi-step project | Fable |
 
-Free gives you Haiku and Sonnet. Opus and Fable are on the paid plans. Start on the everyday model, and move up only when the task needs it.
+Free gives lighter access to every model. Paid plans raise your usage limits and give priority access to Opus and Fable, for when a task is genuinely worth it, like carrying a multi-week research project end to end.
 
-Note: Verified 2026-08-17, current lineup Opus 5, Sonnet 5, Haiku 4.5, Fable 5. Capability ladder is Haiku, Sonnet, Opus, Fable, with Fable built for long, autonomous work. Re-verify version numbers before recording.
+Note: Verified 2026-08-31, current lineup Opus 5, Sonnet 5, Haiku 4.5, Fable 5. Capability ladder is Haiku, Sonnet, Opus, Fable, with Fable built for long, autonomous work. Free is not locked to specific models, it runs on a shared usage pool where heavier models simply cost more of it. Re-verify plan details on claude.com/pricing before recording, this is the fastest-drifting fact in the deck.
 
 ---
 
@@ -79,9 +79,7 @@ A **token** is a small chunk of text, roughly three quarters of a word. Claude r
 
 "Claude is helpful" splits into 4 tokens: `Claude` `is` `help` `ful`.
 
-More effort means more tokens spent thinking before you get a reply.
-
-Note: Quick definition, not a deep dive. The split example makes it concrete, "helpful" breaking into "help" and "ful" is the aha moment, words are not always one token. Just enough so "effort" and "tokens" on the next slide make sense: higher effort burns more tokens per reply. Keep it to one breath.
+Note: Quick definition, not a deep dive. The split example makes it concrete, "helpful" breaking into "help" and "ful" is the aha moment, words are not always one token. This sets up the next slide, where more effort means more tokens spent thinking. Keep it to one breath.
 
 ---
 
@@ -97,9 +95,9 @@ Effort is how hard the model thinks before it answers.
 | High (default) | Most everyday work | "Draft a reply to this email" |
 | Extra high, Max | Hard reasoning, slower but deeper | "Debug why this script fails" |
 
-High is already on by default, turn it up only for genuinely hard problems. The top levels are not on every model.
+More effort means more tokens spent thinking before you get a reply, so raise it only for problems that actually need the depth.
 
-Note: Verified 2026-08-17. Five levels: Low, Medium, High, Extra high (xhigh), Max. Default is High. Extra high and Max are not on Haiku. Effort and thinking are separate settings, this replaced the old "extended thinking" toggle.
+Note: Verified 2026-08-31. Five levels: Low, Medium, High, Extra high (xhigh), Max. Default is High. Haiku does not support effort at all, it is a Sonnet, Opus, and Fable setting. Effort and thinking are separate settings, this replaced the old "extended thinking" toggle.
 
 ---
 
@@ -133,9 +131,9 @@ Connectors let Claude use the tools you already work in.
 - **Notion or Drive** "find our pricing doc and summarise it"
 - **Custom** wire up your own tool with a custom connector
 
-Claude reads your data, and with your permission, takes actions for you.
+You approve access when you connect an app, and Claude only sees what you can see. It still checks with you before doing anything that changes something.
 
-Note: Famous connectors: Google Calendar, Gmail, Notion, Google Drive, Slack, and many more, plus custom connectors built on the open MCP standard. Claude only sees what you can see. Deep setup and workflows are Module 4.
+Note: Famous connectors: Google Calendar, Gmail, Notion, Google Drive, and many more, plus custom connectors built on the open MCP standard. Setup and workflows go deeper once we reach Cowork.
 
 ---
 
@@ -143,10 +141,10 @@ Note: Famous connectors: Google Calendar, Gmail, Notion, Google Drive, Slack, an
 
 # Skills and plugins
 
-- **Skills** reusable expertise Claude loads for a task. Built-in skills make Excel sheets, slide decks, Word docs, and PDFs. You can build your own for a workflow you repeat
-- **Plugins** ready-made bundles of skills and connectors for a kind of work, like sales or finance
+- **Skills** reusable expertise Claude loads for a task. Ask for "a slide deck from this outline" and the built-in Slides skill fires automatically, same for Excel, Word, and PDFs. You can build your own for a workflow you repeat
+- **Plugins** ready-made bundles of skills and connectors for a kind of work, like sales outreach or finance reporting
 
-Note: Skills are how-to packages Claude loads when relevant, the Office file creation is a skill. Custom skills codify your own workflow. Plugins bundle skills and connectors for a role. Deep dive in Module 4.
+Note: Skills are how-to packages Claude loads when relevant, the Office file creation is a skill. Custom skills codify your own workflow. Plugins bundle skills and connectors for a role. We build a custom skill together in a later module.
 
 ---
 
