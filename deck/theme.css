@@ -481,3 +481,7 @@
   right: 26px;
   bottom: 16px;
 }
+
+/* ---------- 4D framework diagram ---------- */
+.reveal .fourd { text-align: center; margin-top: 0.2em; }
+.reveal .fourd svg { width: 46%; height: auto; }
