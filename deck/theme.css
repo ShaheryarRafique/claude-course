@@ -325,6 +325,21 @@
   font-weight: 700;
 }
 
+/* ---------- pull quote (memorable line on a slide) ---------- */
+.reveal .pullquote {
+  margin: 1.1em auto 0.2em;
+  max-width: 90%;
+  border-left: 4px solid var(--accent);
+  padding: 0.35em 0 0.35em 1em;
+  font-size: 1.15em;
+  font-style: italic;
+  font-weight: 600;
+  color: var(--accent);
+  line-height: 1.32;
+  text-align: left;
+}
+.reveal section.dark .pullquote { color: var(--accent-soft); }
+
 /* ---------- prompt card (shows the actual prompt on a slide) ---------- */
 .reveal .promptcard {
   margin: 0.9em auto 0;

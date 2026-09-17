@@ -327,11 +327,10 @@ Note: Ten second reminder. Next, AI answers, but is the answer any good? That is
 
 By the end of this lesson you will be able to:
 
-- Judge an AI answer before you act on it
-- Check the output, the reasoning, and the assumptions
-- Explain what you accept or reject, and why
+- Spot when a confident answer is actually wrong
+- Run three quick checks before you trust it
 
-Note: Lesson title card. The third D, and the short one, because it lives mostly in the loop that follows. The human judgement that catches errors.
+Note: Lesson title card. The third D, and the short one, because it lives mostly in the loop that follows. Two objectives only, each maps to one teaching slide, fluent-is-not-correct and the three checks. No restated bullets that all mean judge the answer.
 
 ---
 
@@ -345,7 +344,9 @@ AI writes with confidence, whether it is right or wrong.
 - Check it against reality, a source, your own knowledge
 - The better AI gets, the more careful you must be
 
-Note: The single most important point in the module, corroborated by every source. Confident, fluent output can be wrong. And as models improve, wrong answers get more convincing, so discernment is a growing skill, not a crutch you outgrow.
+Example: AI writes "IronFit Gym, open 24/7, heated pool, 50+ weekly classes." You have no pool and run 12 classes. Every word confident, every word needs checking.
+
+Note: The single most important point in the module, corroborated by every source. Confident, fluent output can be wrong. And as models improve, wrong answers get more convincing, so discernment is a growing skill, not a crutch you outgrow. The IronFit example, reads beautifully but invents a pool and inflates the class count, this is the hook to open the lesson.
 
 ---
 
@@ -357,11 +358,9 @@ Note: The single most important point in the module, corroborated by every sourc
 - **The reasoning** do the steps actually hold up?
 - **The assumptions** what did it quietly take for granted?
 
-Example: the gym page reads well, but did it invent a class you do not offer, or assume you have parking?
-
 <p class="try"><b>Your turn</b> Judge your project's draft. Note one thing to keep, and one thing to fix.</p>
 
-Note: A simple, repeatable checklist. The assumptions check is the one people skip and the one that bites. They apply it to their own draft now.
+Note: A simple, repeatable checklist, each check catches a different kind of mistake, mapped to the gym page. Output, the invented pool. Reasoning, a contradiction on the page, it says "open every day" at the top but "closed Sundays" lower down, the claims do not hold together, anyone can spot it. Assumptions, the free parking it assumed, the sneaky one people skip. Memorable universal examples, one per check, to say aloud so it clicks: output, "the Great Wall is visible from space with the naked eye" sounds like trivia but is false; reasoning, it says "Friday the 5th" but the 5th is a Saturday, the details do not line up; assumptions, "plan my Saturday picnic" and AI quietly assumes clear weather and a way to get to the park. They apply the three checks to their own draft now.
 
 ---
 
@@ -385,11 +384,10 @@ Note: Ten second reminder. Next, Description and Discernment are really one loop
 
 By the end of this lesson you will be able to:
 
-- Run the loop at the heart of working with AI
-- Turn a rough first answer into a strong final one
-- Feed your judgement into a sharper next prompt
+- Run the loop with AI: ask, check, fix, then repeat
+- Turn a rough first answer into a strong one over a few rounds
 
-Note: Lesson title card. The engine of the whole framework, its own lesson because it is the centrepiece.
+Note: Lesson title card. The engine of the whole framework, its own lesson because it is the centrepiece. Objectives kept in plain words, ask-check-fix-repeat is the loop (the engine slide names the real terms describe, discern, refine, integrate); the second is the habit (first answer is a draft). No jargon on the outcome slide.
 
 ---
 
@@ -402,9 +400,9 @@ Note: Lesson title card. The engine of the whole framework, its own lesson becau
 - **Describe** tell AI clearly what you want
 - **Discern** judge what came back
 - **Refine** say exactly what to change, and go again
-- **Integrate** add your own expertise, decide what to keep
+- **Integrate** make it yours: add what only you know, and keep the best
 
-Note: Anthropic's four-beat loop. Do not expect perfection from one instruction, polishing through dialogue is the shortcut. Each turn your description gets sharper and the result gets closer.
+Note: Anthropic's four-beat loop. Refine is asking AI to change something. Integrate is different, it is where you take over, blend AI's output with your own knowledge and judgement, and own the final result, you are not asking AI here, you are finishing it yourself. Do not expect perfection from one instruction, polishing through dialogue is the shortcut.
 
 ---
 
@@ -414,11 +412,10 @@ Note: Anthropic's four-beat loop. Do not expect perfection from one instruction,
 
 | You describe | You discern |
 | --- | --- |
-| Product, the output | Product, is the output good? |
-| Process, the working style | Process, is the collaboration working? |
-| Performance, the behaviour | Performance, does the system behave? |
+| The output you want | Is the output any good? |
+| How you work together | Is the back-and-forth working? |
 
-Note: The pedagogical spine, Description and Discernment mirror each other one to one. This is why they are taught as one paired system, not two silos. Show the symmetry, it makes both easier to remember.
+Note: The pedagogical spine, Description and Discernment mirror each other, that is why they are taught as one paired system. Kept to the two layers everyone uses, the output and the working style, in plain words. Dropped the third, niche "Performance" row (behaviour of a bot in agency mode), it confuses a general audience and we already folded Performance into a light bullet in Lesson 4.2.
 
 ---
 
@@ -426,9 +423,10 @@ Note: The pedagogical spine, Description and Discernment mirror each other one t
 
 # The first answer is a draft
 
-- Great results are almost never the first reply
-- Most good outputs are two to four rounds in
-- Each round sharpens both the request and the result
+- Great results come a few rounds in, not on the first reply
+- Each round sharpens both your request and the result
+
+<div class="pullquote">"I don't fully know what I want until I see what I don't. The loop is how I find out."</div>
 
 <p class="try"><b>Your turn</b> Run three rounds of the loop on your project. Watch it get better each time.</p>
 
@@ -472,8 +470,7 @@ Note: Lesson title card. The fourth D, the ethical wrapper. You, not the AI, hol
 
 Taking responsibility for what you do with AI, and how.
 
-- AI assisted does not mean AI accountable
-- The result carries your name, not the tool's
+- AI assisted does not mean AI accountable, your name is on the result
 - Three habits make this real
 
 Note: Anthropic's definition. The core line, you hold ultimate accountability for anything you act on, share, or publish. The three sub-competencies come next, creation, transparency, deployment.
@@ -490,9 +487,9 @@ Build thoughtfully, from the start.
 - Pick a tool you are allowed to use for this work
 - Protect private data, do not paste what is not yours
 
-Example: on the gym page, no fake testimonials, and no unsafe claims like "lose 10kg in a week".
+Example: building the gym page, do not paste real member data into AI, and do not ship copied or unsafe code.
 
-Note: The first sub-competency, ethics during the work itself. Bias, honesty, data protection, and tool choice. On the gym demo, the risks are fake reviews and harmful health claims, both are creation-diligence failures.
+Note: The first sub-competency, ethics during the work itself, bias, honesty, data protection, and tool choice. Dev angle, since the page is a build, the risks while making it are leaking private member data, shipping copied or insecure code, using a tool you are not allowed to, or inventing fake reviews. Sticky line for developers: "AI code compiles confidently and still breaks."
 
 ---
 
@@ -502,8 +499,7 @@ Note: The first sub-competency, ethics during the work itself. Bias, honesty, da
 
 Be honest about AI's role.
 
-- Tell people when AI played a real part, where it matters
-- Never pass off AI work as fully your own where honesty counts
+- Tell people when AI played a real part, do not pass it off as fully your own
 - A simple line is enough: "drafted with AI, reviewed by me"
 
 Note: The second sub-competency. Disclosure builds trust, and the level scales with stakes, a personal note needs none, a client deliverable or public report does. Transparency also protects you.
@@ -516,13 +512,12 @@ Note: The second sub-competency. Disclosure builds trust, and the level scales w
 
 Check before it goes out.
 
-- Fact-check claims, numbers, names, and dates
+- Fact-check claims, numbers, and dates against a reliable source
 - Test that it actually works
-- Validate it against a reliable source
 
-Example: on the gym page, check the price, class times, and address, and test the sign-up button.
+Example: run the page yourself, test the sign-up button works, and check the price and class times are right.
 
-Note: The third sub-competency, the final gate before release. Fact-check, test, validate. On the gym demo, wrong class times or a broken sign-up button are deployment-diligence misses. This is where hallucinations get caught before they reach anyone.
+Note: The third sub-competency, the final gate before release. Fact-check, test, validate. Dev angle, do not just read AI's code, run it, click the sign-up button, load it on a phone. Wrong class times or a broken button are deployment-diligence misses. This is where hallucinations get caught before they reach anyone.
 
 ---
 
@@ -536,9 +531,9 @@ If the answer is no, it is not ready.
 - Name one group it could affect
 - Decide honestly if you would sign it
 
-<p class="try"><b>Your turn</b> Run this test on your project. Fix whatever fails before you call it done.</p>
+<p class="try"><b>Your turn</b> On your project: is it clean, did you say AI helped, and does it actually work? If you would put your name on it, it is done.</p>
 
-Note: The one-line test to remember. Make diligence concrete on their real work. Reflection, what would you change before you shipped it?
+Note: The one-line test to remember, backed by the three habits applied to their own project, clean (Creation), disclosed (Transparency), works (Deployment). This is the apply-to-your-project step, same as every other lesson. Reflection, what would you change before you shipped it?
 
 ---
 
@@ -551,34 +546,6 @@ Note: The one-line test to remember. Make diligence concrete on their real work.
 - Verify, test, and own it, would you sign it?
 
 Note: Ten second reminder. Next, put all four together and finish your project.
-
----
-
-<!-- .slide: data-background-color="#17181a" class="dark" -->
-
-<div class="lesson-no">Lesson 4.7</div>
-
-## Putting it all together
-
-By the end of this lesson you will be able to:
-
-- Run one real task through all four Ds
-- Use the bookends and the engine end to end
-- Finish something you would stand behind
-
-Note: Lesson title card. The capstone, on the project they have carried the whole module. Little new content, this is synthesis and reflection.
-
----
-
-<div class="lesson-no">Lesson 4.7 · Your capstone</div>
-
-# Ship it
-
-<p class="try"><b>Your turn</b> Finish your project end to end with all four Ds, and produce something you would actually use or send.</p>
-
-<span class="demo">Demo</span>
-
-Note: The capstone task. Run the full project to completion live if time allows. This is what they take away from the module, a real, finished, verified deliverable.
 
 ---
 
