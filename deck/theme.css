@@ -340,6 +340,94 @@
 }
 .reveal section.dark .pullquote { color: var(--accent-soft); }
 
+/* ---------- workshop layout (Module 5, adapted from the dev workshop) ---------- */
+.reveal .ws-lead {
+  color: var(--ink);
+  font-size: 0.74em;
+  line-height: 1.32;
+  margin: 0.1em 0 0.7em;
+  max-width: 66%;
+}
+.reveal .ws-sub {
+  color: var(--muted);
+  font-weight: 700;
+  font-size: 0.5em;
+  letter-spacing: 0;
+}
+.reveal .ws-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.6em;
+  text-align: left;
+  align-items: start;
+  margin-top: 0.3em;
+}
+.reveal .ws-h {
+  font-family: "SFMono-Regular", ui-monospace, Menlo, monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--accent);
+  font-size: 0.42em;
+  font-weight: 700;
+  margin: 0 0 0.7em;
+}
+.reveal .ws-row {
+  padding: 0.34em 0;
+  border-bottom: 1px solid rgba(23, 24, 26, 0.1);
+  font-size: 0.56em;
+  line-height: 1.3;
+  color: var(--muted);
+}
+.reveal .ws-row:last-child { border-bottom: none; }
+.reveal .ws-row b { color: var(--ink); }
+.reveal .ws-row .k {
+  font-family: "SFMono-Regular", ui-monospace, Menlo, monospace;
+  color: var(--accent);
+  font-weight: 700;
+}
+.reveal .ws-callout {
+  border-left: 3px solid var(--accent);
+  padding: 0.32em 0 0.32em 0.85em;
+  color: var(--muted);
+  font-size: 0.56em;
+  line-height: 1.35;
+  margin-top: 0.8em;
+  text-align: left;
+}
+.reveal .ws-callout b { color: var(--ink); }
+.reveal .ws-code {
+  border: 1px solid rgba(23, 24, 26, 0.16);
+  border-radius: 10px;
+  background: #fffdf9;
+  margin-top: 0.7em;
+  overflow: hidden;
+  text-align: left;
+}
+.reveal .ws-code .ws-code-h {
+  font-family: "SFMono-Regular", ui-monospace, Menlo, monospace;
+  font-size: 0.42em;
+  color: var(--muted);
+  padding: 0.55em 0.9em;
+  border-bottom: 1px solid rgba(23, 24, 26, 0.1);
+}
+.reveal .ws-code pre {
+  margin: 0;
+  box-shadow: none;
+  font-size: 0.46em;
+  line-height: 1.5;
+  background: transparent;
+}
+.reveal .ws-code code {
+  font-family: "SFMono-Regular", ui-monospace, Menlo, monospace;
+  color: var(--ink);
+  background: transparent;
+  padding: 0.7em 0.9em;
+  display: block;
+  white-space: pre;
+}
+.reveal .ws-code .cm { color: var(--muted); }
+.reveal .ws-code .ky { color: var(--accent); }
+
 /* ---------- prompt card (shows the actual prompt on a slide) ---------- */
 .reveal .promptcard {
   margin: 0.9em auto 0;
@@ -367,6 +455,55 @@
 .reveal .promptcard + .demo {
   margin-top: 1em;
 }
+
+/* ---------- file card (shows a real file / config, distinct from a prompt) ---------- */
+.reveal .filecard {
+  margin: 0.9em auto 0;
+  max-width: 90%;
+  border: 1px solid rgba(23, 24, 26, 0.18);
+  border-radius: 10px;
+  overflow: hidden;
+  background: #fbfaf6;
+  text-align: left;
+}
+.reveal .filecard .fname {
+  display: block;
+  background: var(--ink);
+  color: #e9e4d8;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.46em;
+  letter-spacing: 0.02em;
+  padding: 0.55em 0.95em;
+}
+.reveal .filecard .fbody {
+  display: block;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 0.56em;
+  line-height: 1.85;
+  color: #2a2b2e;
+  padding: 0.8em 0.95em;
+}
+.reveal .filecard .fbody .k { color: var(--accent); font-weight: 700; }
+.reveal .filecard .fbody .c { color: #9a9488; }
+.reveal .filecard .fbody .o { color: #6b6659; }
+
+/* ---------- inline SVG diagrams (flow, loop) ---------- */
+.reveal .diagram {
+  display: block;
+  margin: 0.8em auto 0.3em;
+  max-width: 94%;
+  height: auto;
+}
+
+/* ---------- star example callout (the standout real-world example) ---------- */
+.reveal .star {
+  margin: 0.85em 0 0;
+  font-size: 0.6em;
+  line-height: 1.45;
+  color: var(--accent);
+  font-weight: 600;
+}
+.reveal .star::before { content: "\2605\00a0\00a0"; }
 
 /* ---------- clickable article/reference links ---------- */
 .reveal .refs {
