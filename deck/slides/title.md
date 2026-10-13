@@ -37,17 +37,100 @@ Note: This is the trust moment. Deliver with calm confidence, look into the came
 
 ---
 
-<div class="lesson-no">How the course works · 6 modules · 20 hours</div>
+<div class="lesson-no">How the course works · 6 modules · 31 lessons</div>
 
 # Course roadmap
 
 <div class="roadmap">
 <div class="rm"><span class="rm-n">01</span><span class="rm-t">Claude Essentials</span></div>
-<div class="rm"><span class="rm-n">02</span><span class="rm-t">The 4D Framework</span></div>
-<div class="rm"><span class="rm-n">03</span><span class="rm-t">Introduction to Cowork</span></div>
-<div class="rm"><span class="rm-n">04</span><span class="rm-t">Claude Code</span></div>
-<div class="rm"><span class="rm-n">05</span><span class="rm-t">The Claude API</span></div>
-<div class="rm"><span class="rm-n">06</span><span class="rm-t">Capstone Project</span></div>
+<div class="rm"><span class="rm-n">02</span><span class="rm-t">Claude's Toolkit</span></div>
+<div class="rm"><span class="rm-n">03</span><span class="rm-t">Foundations of AI Fluency</span></div>
+<div class="rm"><span class="rm-n">04</span><span class="rm-t">The 4D Framework</span></div>
+<div class="rm"><span class="rm-n">05</span><span class="rm-t">Claude Code</span></div>
+<div class="rm"><span class="rm-n">06</span><span class="rm-t">Claude Design</span></div>
 </div>
 
-Note: This is the outline, the whole journey on one screen. Walk through the six modules quickly, then explain simply: modules one to three and six are for everyone, and modules four and five are the coding modules for anyone who wants to build software. Nobody is left behind.
+Note: This is the outline, the whole journey on one screen. Walk through it as three pairs. Modules one and two teach the tool: a good conversation, then the rest of the app. Modules three and four teach the method: what AI fluency is, then the four Ds applied to one real project. Modules five and six put it to work: building with Claude Code, then designing with Claude Design. Every module is for everyone, nobody is left behind. The next slide shows what is inside each one.
+
+---
+
+<div class="lesson-no">How the course works · What is inside</div>
+
+# Module by module
+
+<div class="mod-grid">
+<div class="mg"><div class="mg-head"><span class="mg-n">01</span><span class="mg-t">Claude Essentials</span><span class="mg-c">3 lessons</span></div><div class="mg-l">What is Claude · Your first conversation · Getting better results</div></div>
+<div class="mg"><div class="mg-head"><span class="mg-n">02</span><span class="mg-t">Claude's Toolkit</span><span class="mg-c">5 lessons</span></div><div class="mg-l">Models, tools and connectors · Projects · Artifacts · Memory and Styles · Other ways to work</div></div>
+<div class="mg"><div class="mg-head"><span class="mg-n">03</span><span class="mg-t">Foundations of AI Fluency</span><span class="mg-c">3 lessons</span></div><div class="mg-l">Introduction to AI Fluency · Why you need it · The 4D Framework</div></div>
+<div class="mg"><div class="mg-head"><span class="mg-n">04</span><span class="mg-t">The 4D Framework</span><span class="mg-c">6 lessons</span></div><div class="mg-l">Delegation · Description · Six prompting techniques · Discernment · The Describe–Discern loop · Diligence</div></div>
+<div class="mg"><div class="mg-head"><span class="mg-n">05</span><span class="mg-t">Claude Code</span><span class="mg-c">12 lessons</span></div><div class="mg-l">Meet Claude Code · Install · The workflow · How it works · Skills · Subagents · Memory · Hooks · MCP · Plugins · Loops · Commands</div></div>
+<div class="mg"><div class="mg-head"><span class="mg-n">06</span><span class="mg-t">Claude Design</span><span class="mg-c">2 lessons</span></div><div class="mg-l">Your first design · On brand, and out the door</div></div>
+</div>
+
+Note: The detail behind the roadmap, the lesson count and the lesson names for every module. Do not read every lesson aloud, point to the counts and name one highlight per module. Module one is about an hour and module two about an hour and twenty minutes. Module four runs one project of your own through all four Ds, and module five is the biggest, twelve short lessons that take you from install to loops. Every lesson ends with a hands-on "your turn".
+
+---
+
+<div class="lesson-no">How the course works · Lesson breakdown</div>
+
+# Every lesson, at a glance
+
+<div class="lesson-breakdown">
+<div class="lb-col">
+<div class="lb-mod"><div class="lb-head"><span class="lb-n">01</span><span class="lb-t">Claude Essentials</span><span class="lb-c">3 lessons</span></div>
+<ul>
+<li><span class="lb-i">1.1</span>What is Claude?</li>
+<li><span class="lb-i">1.2</span>Your first conversation</li>
+<li><span class="lb-i">1.3</span>Getting better results</li>
+</ul></div>
+<div class="lb-mod"><div class="lb-head"><span class="lb-n">02</span><span class="lb-t">Claude's Toolkit</span><span class="lb-c">5 lessons</span></div>
+<ul>
+<li><span class="lb-i">2.1</span>Make Claude more powerful</li>
+<li><span class="lb-i">2.2</span>Projects</li>
+<li><span class="lb-i">2.3</span>Artifacts</li>
+<li><span class="lb-i">2.4</span>Memory and Styles</li>
+<li><span class="lb-i">2.5</span>Other ways to work with Claude</li>
+</ul></div>
+<div class="lb-mod"><div class="lb-head"><span class="lb-n">03</span><span class="lb-t">Foundations of AI Fluency</span><span class="lb-c">3 lessons</span></div>
+<ul>
+<li><span class="lb-i">3.1</span>Introduction to AI Fluency</li>
+<li><span class="lb-i">3.2</span>Why you need AI Fluency</li>
+<li><span class="lb-i">3.3</span>The 4D Framework</li>
+</ul></div>
+</div>
+<div class="lb-col">
+<div class="lb-mod"><div class="lb-head"><span class="lb-n">04</span><span class="lb-t">The 4D Framework</span><span class="lb-c">6 lessons</span></div>
+<ul>
+<li><span class="lb-i">4.1</span>Delegation</li>
+<li><span class="lb-i">4.2</span>Description</li>
+<li><span class="lb-i">4.3</span>Six prompting techniques</li>
+<li><span class="lb-i">4.4</span>Discernment</li>
+<li><span class="lb-i">4.5</span>The Describe–Discern loop</li>
+<li><span class="lb-i">4.6</span>Diligence</li>
+</ul></div>
+<div class="lb-mod"><div class="lb-head"><span class="lb-n">06</span><span class="lb-t">Claude Design</span><span class="lb-c">2 lessons</span></div>
+<ul>
+<li><span class="lb-i">6.1</span>Your first design</li>
+<li><span class="lb-i">6.2</span>On brand, and out the door</li>
+</ul></div>
+</div>
+<div class="lb-col">
+<div class="lb-mod"><div class="lb-head"><span class="lb-n">05</span><span class="lb-t">Claude Code</span><span class="lb-c">12 lessons</span></div>
+<ul>
+<li><span class="lb-i">5.1</span>Meet Claude Code</li>
+<li><span class="lb-i">5.2</span>Install and first run</li>
+<li><span class="lb-i">5.3</span>The workflow</li>
+<li><span class="lb-i">5.4</span>How Claude Code works</li>
+<li><span class="lb-i">5.5</span>Skills</li>
+<li><span class="lb-i">5.6</span>Agents and subagents</li>
+<li><span class="lb-i">5.7</span>Memory</li>
+<li><span class="lb-i">5.8</span>Hooks</li>
+<li><span class="lb-i">5.9</span>MCP</li>
+<li><span class="lb-i">5.10</span>Plugins</li>
+<li><span class="lb-i">5.11</span>Loops</li>
+<li><span class="lb-i">5.12</span>Commands</li>
+</ul></div>
+</div>
+</div>
+
+Note: The full map, every module and every lesson on one screen, 31 lessons in total. Do not read it out, it is here so students can see exactly where each topic lives and come back to it. Point to the shape: modules one and two teach the tool, three and four the method, five and six put it to work. Module five, Claude Code, is the biggest with twelve short lessons. Module three's lessons appear in its deck as Lesson 1, 2A and 2B, here they are numbered 3.1 to 3.3.
